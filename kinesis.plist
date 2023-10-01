@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+
+	<key>BBLMLanguageCode</key>
+	<string>KNSM</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>Kinesis Macro</string>
+
+	<key>BBLMColorsSyntax</key>	<true/>
+	<key>BBLMIsCaseSensitive</key> <false/>
+	<key>BBLMScansFunctions</key> <false/>
+	<key>BBLMSupportsTextCompletion</key> <true/>
+	<key>BBLMCanSpellCheckCodeRuns</key> <false/>
+
+	<key>BBLMPreferredFilenameExtension</key>
+	<string>txt</string>
+	<key>BBLMFileNamesToMatch</key>
+	<array>
+		<string>layout*.txt</string>
+	</array>
+	<key>BBLMCommentLineDefault</key>
+	<string>*</string>
+
+<!-- Language features -->
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+		<string>A-Za-z0-9_+=/\\\*-</string>
+
+		<key>Open Line Comments</key>
+		<string>*</string>
+
+		<key>Open Statement Blocks</key>
+		<string>{</string>
+		<key>Close Statement Blocks</key>
+		<string>}</string>
+
+		<key>Open Parameter Lists</key>
+		<string><![CDATA[
+		[
+		]]></string>
+		<key>Close Parameter Lists</key>
+		<string>]</string>
+	</dict>
+
+<!-- Predefined keywords -->
+	<key>BBLMPredefinedNameList</key>
+	<array>
+		<!-- Multiplay prefixes -->
+		<string>x1</string>
+		<string>x2</string>
+		<string>x3</string>
+		<string>x4</string>
+		<string>x5</string>
+		<string>x6</string>
+		<string>x7</string>
+		<string>x8</string>
+		<string>x9</string>
+
+		<!-- Playback speed prefixes -->
+		<string>s1</string>
+		<string>s2</string>
+		<string>s3</string>
+		<string>s4</string>
+		<string>s5</string>
+		<string>s6</string>
+		<string>s7</string>
+		<string>s8</string>
+		<string>s9</string>
+
+	</array>
+
+<!-- The list of keywords -->
+	<key>BBLMKeywordList</key>
+	<array>
+		<!-- Macro keys -->
+		<string>fn</string>
+		<string>fntog</string>
+		<string>fnshf</string>
+		<string>hk0</string>
+		<string>hk1</string>
+		<string>hk2</string>
+		<string>hk3</string>
+		<string>hk4</string>
+		<string>hk5</string>
+		<string>hk6</string>
+		<string>hk7</string>
+		<string>hk8</string>
+
+		<!-- Special keys -->
+		<string>menu</string>
+		<string>calc</string>
+		<string>shtdn</string>
+		<string>led</string>
+		<string>dran</string>
+		<string>intl\</string>
+		<string>intl1</string>
+		<string>intl2</string>
+		<string>intl3</string>
+		<string>intl4</string>
+		<string>intl5</string>
+		<string>null</string>
+		<string>layout</string>
+
+
+		<!-- Function keys -->
+		<string>f1</string>
+		<string>f2</string>
+		<string>f3</string>
+		<string>f4</string>
+		<string>f5</string>
+		<string>f6</string>
+		<string>f7</string>
+		<string>f8</string>
+		<string>f9</string>
+		<string>f10</string>
+		<string>f11</string>
+		<string>f12</string>
+		<string>f13</string>
+		<string>f14</string>
+		<string>f15</string>
+		<string>f16</string>
+		<string>f17</string>
+		<string>f18</string>
+		<string>f19</string>
+		<string>f20</string>
+		<string>f21</string>
+		<string>f22</string>
+		<string>f23</string>
+		<string>f24</string>
+
+		<!-- Modifier keys -->
+		<string>lshft</string>
+		<string>-lshft</string>
+		<string>+lshft</string>
+		<string>rshft</string>
+		<string>-rshft</string>
+		<string>+rshft</string>
+		<string>lalt</string>
+		<string>-lalt</string>
+		<string>+lalt</string>
+		<string>ralt</string>
+		<string>-ralt</string>
+		<string>+ralt</string>
+		<string>lwin</string>
+		<string>-lwin</string>
+		<string>+lwin</string>
+		<string>rwin</string>
+		<string>-rwin</string>
+		<string>+rwin</string>
+		<string>lctrl</string>
+		<string>-lctrl</string>
+		<string>+lctrl</string>
+		<string>rctrl</string>
+		<string>-rctrl</string>
+		<string>+rctrl</string>
+		<string>lspc</string>
+		<string>rspc</string>
+		<string>caps</string>
+		<string>hyper</string>
+		<string>meh</string>
+
+		<!-- Punctuation -->
+		<string>obrk</string>
+		<string>cbrk</string>
+		<string>per</string>
+		<string>com</string>
+		<string>apos</string>
+		<string>tilde</string>
+		<string>colon</string>
+		<string>hyph</string>
+
+		<!-- Media buttons -->
+		<string>mute</string>
+		<string>vol+</string>
+		<string>vol-</string>
+		<string>play</string>
+		<string>next</string>
+		<string>prev</string>
+
+		<!-- Mouse clicks -->
+		<string>lmous</string>
+		<string>rmous</string>
+		<string>mmous</string>
+		<string>mous4</string>
+		<string>mous5</string>
+
+		<!-- Control and navigation keys -->
+		<string>ent</string>
+		<string>tab</string>
+		<string>spc</string>
+		<string>del</string>
+		<string>bspc</string>
+		<string>home</string>
+		<string>end</string>
+		<string>pup</string>
+		<string>pdn</string>
+		<string>lft</string>
+		<string>rght</string>
+		<string>up</string>
+		<string>dwn</string>
+		<string>esc</string>
+		<string>prnt</string>
+		<string>pause</string>
+		<string>scrlk</string>
+		<string>ins</string>
+
+		<!-- Numeric Keypad -->
+		<string>numlk</string>
+		<string>kp0</string>
+		<string>kp1</string>
+		<string>kp2</string>
+		<string>kp3</string>
+		<string>kp4</string>
+		<string>kp5</string>
+		<string>kp6</string>
+		<string>kp7</string>
+		<string>kp8</string>
+		<string>kp9</string>
+		<string>kp+</string>
+		<string>kp-</string>
+		<string>kp*</string>
+		<string>kp/</string>
+		<string>kpent</string>
+		<string>kp9</string>
+		<string>=mac</string>
+		<string>kp.</string>
+
+	</array>
+</dict>
+</plist>
